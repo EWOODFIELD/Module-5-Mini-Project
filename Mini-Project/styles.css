@@ -1,0 +1,85 @@
+#my-logo1{
+   height: 150px;
+   width: 200px;
+   background: url('C:\Users\Ethan\Desktop\Software Development Bootcamp\Week 5\Mini-Project\index.html')
+}
+.my-link{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+    color: black;
+}
+
+.information-callout{
+    color: white;
+    text-align: center;
+}
+.navbar {
+    background-color: rgb(88, 208, 248);
+}
+
+.container-fluid{
+    justify-content: center;
+}
+
+.card1{
+    background-color: lightblue;
+    height: auto;
+}
+
+.cardSingles{
+    background-color: lightblue;
+}
+
+body{
+    background-color:rgb(110, 109, 109);
+}
+
+#footer{
+    background-color: lightblue;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+hr{
+    color: white;
+}
+
+#more, #more2, #more3, #more4, #more5, #more6 {display: none;}
+
+.card-fixed-height{
+    height: 200px;
+    object-fit:cover;
+}
+
+/* #footer{
+    bottom:0;
+    width: 100%;
+} */
+
+#pikachu{
+    height: 70px;
+    width: 70px;
+}
+
+.different-height{
+    height: 250px;
+    object-fit: cover;
+}
+
+.different-height2{
+    height: 450px;
+    object-fit: cover;
+}
+
+/* .footer-icon{
+    padding-left: 10px;
+} */
+
+footer{
+    background-color: rgb(88, 208, 248);
+    margin-top: 20px;
+}
+

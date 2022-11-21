@@ -1,0 +1,417 @@
+<!-- Dcoument Start -->
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hello, world!</title>
+</head>
+<body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+<!-- Main Page Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-ld">
+    <div class="container-fluid">
+      <a class="navbar-brand" href=""><img id="my-logo1" src="https://tcgcollectors.com.au/wp-content/uploads/2020/05/tcg-logo-2.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active my-link" aria-current="page" href="index.html">Home <iconify-icon icon="akar-icons:home-alt1"></iconify-icon> <!--Link not working-->
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link my-link" href="Sealed.html">Preorder <iconify-icon class="Pikachu" icon="ic:twotone-catching-pokemon"></iconify-icon>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle my-link" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pokemon Set <iconify-icon icon="arcticons:pokemon-unite" id="Pikachu"></iconify-icon>
+
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="Sealed.html">Sealed</a></li>
+              <li><a class="dropdown-item" href="Singles.html">Singles</a></li>
+              <li><hr class="dropdown-divider"></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link my-link" href="#">Accessories <iconify-icon icon="fluent:backpack-12-regular"></iconify-icon>
+            </a>
+          <li class="nav-item">
+            <a class="nav-link my-link" href="Singles-chart.html">Cart <iconify-icon icon="ant-design:shopping-cart-outlined"></iconify-icon>
+            </a>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> <!-- determine how to make search field work -->
+          <button class="btn btn-primary" type="submit" onclick="window.location.href='Singles.html'">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <h4 class="information-callout">Latest News and Information</h4>
+  <hr>
+  <div class="container-fluid row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+    <div class="col">
+      <div class="card card1">
+        <img src="https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2021/11/EitJnbZXkAAvp2T-1-copy-92-2.jpg" class="card-img-top card-fixed-height img-fluid" alt="not working">
+        <div class="card-body">
+          <h4 class="card-title">Pre-Order Brilliant Stars Sealed Units</h4>
+          <p class="card-text">Brilliant Stars is the ninth main Sword & Shield Series expansion of the Pokémon Trading Card Game and is set to release on February 25, 2022. 
+          </p>
+          <P class="card-text">Vendor information as follows: Sword & Shield—Brilliant Stars<span id="dots">... </span><span id="more">
+            Buy Now 
+            Series	Sword & Shield Series
+            Release Date	February 25, 2022
+            Number of Cards	Over 170
+            Standard Legal Deck?	Yes
+            OverviewCard ChecklistView Cards From This Expansion View All Expansions
+            Sword & Shield—Brilliant Stars
+            Sword & Shield—Brilliant Stars
+            
+            Overflowing with light, Arceus VSTAR descends from on high to share its celestial powers with other Pokémon V. Discover glimmering constellations and start your journey toward stellar greatness in the Pokémon TCG: Sword & Shield—Brilliant Stars expansion!
+            
+            Over 170 cards
+            
+            4 brand-new Pokémon VSTAR
+            
+            20 powerful Pokémon V and 3 enormous Pokémon VMAX
+            
+            30 cards with special art in the Trainer Gallery subset
+            
+            More than 20 Trainer cards and a new Special Energy card</span></p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+            
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card card1">
+        <img id="brilliant-stars-list" src="https://preview.redd.it/626gglk1r8791.jpg?width=640&crop=smart&auto=webp&s=28bd86a3a5b4cd701d33b64b34bc876aad20a578" class="card-img-top card-fixed-height img-fluid" alt="not working">
+        <div class="card-body">
+          <h4 class="card-title">See Brilliant Stars Card List</h4>
+          <p class="card-text">Check out the full card list reveals for Brilliant Stars</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots2">...</span><span id="more2">
+            erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. 
+            In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+            Sed dapibus pulvinar nibh tempor porta.</span></p>
+            <button onclick="myFunction2()" id="myBtn2">Read more</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card card1">
+        <img src="https://i.ytimg.com/vi/8dlTs_ef5gA/maxresdefault.jpg" class="card-img-top card-fixed-height img-fluid" alt="not working">
+        <div class="card-body">
+          <h4 class="card-title">Top Cards to Get in Brilliant Stars</h4>
+          <p class="card-text">Check out our top picks for the most playable cards in this set.</p>
+            <p> New support for Arceus and Raichu decks discussed and their impact on the meta game ahead of 2022 regional championships.<span id="dots3">...</span><span id="more3"> New support for Arceus and Raichu decks 
+            discussed and their impact on the meta game ahead of 2022 regional championships. 
+            New support for Arceus and Raichu decks discussed and their impact on the meta game ahead of 2022 regional championships.</span></p>
+            <button onclick="myFunction3()" id="myBtn3">Read more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <h4 class="information-callout">Deck Profiles and General Meta Analysis</h4>
+  <hr>
+  <div class="container-fluid row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+    <div class="col">
+      <div class="card card1">
+        <img src="https://i.redd.it/q4kulnkf9kk01.png" class="card-img-top card-fixed-height img-fluid" alt="not working">
+        <div class="card-body">
+          <h4 class="card-title">Tier Hierarchy and Meta Rankings</h4>
+          <p class="card-text">(Content creator) discusses the type rankings and the state of the meta <a href="https://www.youtube.com/watch?v=MrdoBoea3XI">here</a></p>
+          <p>Video transcript begins here:<span id="dots4">... </span><span id="more4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel
+              erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. 
+              In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+              Sed dapibus pulvinar nibh tempor porta.</span></p>
+            <button onclick="myFunction4()" id="myBtn4">Read more</button>
+            
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card card1">
+        <img id="brilliant-stars-list" src="https://assets.dicebreaker.com/pokemon-cards-mew-vmax-genesect-v.png/BROK/resize/1200x1200%3E/format/jpg/quality/70/pokemon-cards-mew-vmax-genesect-v.png" class="card-img-top card-fixed-height img-fluid" alt="not working">
+        <div class="card-body">
+          <h4 class="card-title">(Content creator) breaks down the best singles</h4>
+          <p class="card-text"> Video begins <a href="https://www.youtube.com/shorts/1TFU3W3AeI4">here</a></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span id="dots5">...</span><span id="more5">
+            erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. 
+            In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+            Sed dapibus pulvinar nibh tempor porta.</span></p>
+            <button onclick="myFunction5()" id="myBtn5">Read more</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card card1">
+        <img src="https://i.ytimg.com/vi/nigKRmgFg_I/maxresdefault.jpg" class="card-img-top card-fixed-height img-fluid" alt="not working">
+        <div class="card-body">
+          <h4 class="card-title">1st Place Salt Lake City Regionals Deck Profile</h4>
+          <p class="card-text">(Player) breaks down his first place Arceus VSTAR Gengar VMAX deck <a href="https://www.youtube.com/watch?v=nigKRmgFg_I">here</a></p>
+          <p> New Arceus VSTAR turn 2 OTK strategy discussed<span id="dots6">...</span><span id="more6"> New support for Arceus and Raichu decks 
+            discussed and their impact on the meta game ahead of 2022 regional championships. 
+            New support for Arceus and Raichu decks discussed and their impact on the meta game ahead of 2022 regional championships.</span></p>
+            <button onclick="myFunction6()" id="myBtn6">Read more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+          
+          
+          
+  
+ 
+<!-- Footer -->
+
+<!-- width="800px;" margin-top="200px" -->
+<!-- Footer -->
+<footer class="text-center text-lg-start text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>See our company details and links below:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">      
+        <iconify-icon icon="brandico:facebook-rect"></iconify-icon>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <iconify-icon icon="fa:twitter-square"></iconify-icon>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <iconify-icon icon="fa-brands:facebook-messenger"></iconify-icon>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <iconify-icon icon="clarity:email-solid"></iconify-icon>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>tcg collectors
+          </h6>
+          <p>
+            We are an online vendor selling sealed Pokemon product
+            as well as singles. We are also a registered TO for Pokemon
+            events.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="https://tcg.pokemon.com/en-us/expansions/brilliant-stars/" class="text-reset">Brilliant Stars</a>
+          </p>
+          <p>
+            <a href="https://www.pokemon.com/us/pokemon-tcg/shining-fates/explore-and-watch/" class="text-reset">Shining Fates</a>
+          </p>
+          <p>
+            <a href="https://www.pokemon.com/us/pokemon-tcg/xy-evolutions/explore-and-watch/" class="text-reset">XY Evolutions</a>
+          </p>
+          <p>
+            <a href="https://www.pokemontcg.com/en-us/hidden-fates/" class="text-reset">Hidden Fates</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>    <!-- Link to pricing chart -->
+          </p>
+          <p>
+            <a href="https://www.youtube.com/watch?v=U0Kbp8eFyIY&ab_channel=Xela" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> Auckland City, NZ</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@customerservice.co.nz
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 64 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 64 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright: Ethan Woodfield
+    <!-- <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a> -->
+  </div>
+  <!-- Copyright -->
+</footer>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+function myFunction2() {
+  var dots = document.getElementById("dots2");
+  var moreText = document.getElementById("more2");
+  var btnText = document.getElementById("myBtn2");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+function myFunction3() {
+  var dots = document.getElementById("dots3");
+  var moreText = document.getElementById("more3");
+  var btnText = document.getElementById("myBtn3");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+function myFunction4() {
+  var dots = document.getElementById("dots4");
+  var moreText = document.getElementById("more4");
+  var btnText = document.getElementById("myBtn4");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+function myFunction5() {
+  var dots = document.getElementById("dots5");
+  var moreText = document.getElementById("more5");
+  var btnText = document.getElementById("myBtn5");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+function myFunction6() {
+  var dots = document.getElementById("dots6");
+  var moreText = document.getElementById("more6");
+  var btnText = document.getElementById("myBtn6");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+
+
+</script>
+
+</body>
+
+
+
+</html>
+
+
+
+ 
